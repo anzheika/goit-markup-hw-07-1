@@ -8,10 +8,13 @@
 @import './components/section';
 @import './components/current';
 @import './components/btn';
-@import './components/logo';
+@import './components/logo-header';
+@import './components/logo-footer';
 @import './components/nav';
 @import './components/social-links';
 @import './components/btn-portfolio';
+@import './components/modal';
+@import './components/titles';
 
 @import './layout/header';
 @import './layout/hero';
@@ -20,3 +23,4 @@
 @import './layout/our-team';
 @import './layout/our-clients';
 @import './layout/work-examples';
+@import './layout/footer';

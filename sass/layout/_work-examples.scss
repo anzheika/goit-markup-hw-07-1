@@ -42,18 +42,16 @@
   flex-wrap: wrap;
 }
 
-.work-examples-list-item:hover .work-examples-top-text {
-  transform: translateY(0);
-}
-
-.work-examples-list-item:focus .work-examples-top-text {
-  transform: translateY(0);
-}
-
 .work-examples-list-item {
   margin-right: 30px;
   width: 370px;
+
+  &:hover .work-examples-top-text,
+  &:focus .work-examples-top-text {
+    transform: translateY(0);
+  }
 }
+
 .work-examples-list-item:nth-child(3n + 3) {
   margin-right: 0;
 }
@@ -66,15 +64,14 @@
 
 .work-examples-list-link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.work-examples-list-link:focus,
-.work-examples-list-link:hover {
-  cursor: pointer;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:focus,
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
-
 .work-examples-list-link:focus .work-examples-top-text {
   transform: translateY(0);
 }

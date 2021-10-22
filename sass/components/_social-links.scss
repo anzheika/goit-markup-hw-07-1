@@ -6,10 +6,10 @@
 .social-item {
   width: 44px;
   height: 44px;
-}
 
-.social-item + .social-item {
-  margin-left: 10px;
+  & + .social-item {
+    margin-left: 10px;
+  }
 }
 
 .social-link {
@@ -23,12 +23,12 @@
   background-color: var(--primary-bg-color);
   fill: #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-link:focus,
-.social-link:hover {
-  background-color: var(--accent-color);
-  fill: var(--primary-bg-color);
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+    fill: var(--primary-bg-color);
+  }
 }
 
 .social-icon {

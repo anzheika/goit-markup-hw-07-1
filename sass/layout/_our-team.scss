@@ -1,17 +1,7 @@
 .our-team-section {
   background-color: #f5f4fa;
 }
-.our-team-title {
-  text-align: center;
-}
-.our-team-title {
-  color: #212121;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.85;
-  margin-bottom: 50px;
-}
+
 .our-team-list {
   display: flex;
   align-items: center;
@@ -42,11 +32,10 @@
   color: var(--primary-text-color);
   margin-bottom: 16px;
 }
+
 .our-team-list-content {
   text-align: center;
   background-color: #ffffff;
-}
-.our-team-list-content {
   padding-top: 32px;
   padding-right: 30px;
   padding-bottom: 30px;

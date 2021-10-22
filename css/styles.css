@@ -1,10 +1,10 @@
-:root {
+/* :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
-}
-
+} */
+/* 
 h1,
 h2,
 h3,
@@ -42,7 +42,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 /* Цвет основного текста: #212121
 Вторичный цвет  #757575 
 цвет контактов rgba(255, 255, 255, 0.6)
@@ -50,7 +50,7 @@ img {
 акцентный цвет = #2196F3  */
 /* цвет фона основной #FFFFFF
 цвет фона вторичный #2F303A */
-body {
+/* body {
   background-color: #ffffff;
   color: #212121;
   font-family: 'Roboto', sans-serif;
@@ -61,14 +61,13 @@ body {
 
 ul {
   list-style: none;
-}
+} */
 /* НАЧАЛО ШАПКИ И НАВИГАЦИИ НА САЙТЕ */
-.page-header {
+/* .page-header {
   color: var(--primary-bg-color);
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* width: 1200px; */
   border-bottom: 1px solid #ececec;
 }
 
@@ -204,17 +203,15 @@ ul {
 }
 
 .nav-icon {
-  /* width: 16px;
-  height: 12px; */
   fill: var(--primary-text-color);
   margin-right: 10px;
   font-family: inherit;
-}
+} */
 
 /* ========== КОНЕЦ ШАПКИ И НАВИГАЦИИ НА САЙТЕ============ */
 
 /*======= НАЧАЛО БАННЕРА НА ГЛАВНОЙ СТРАНИЦЕ ==========*/
-.hero {
+/* .hero {
   margin: 0 auto;
   background-color: #2f303a;
   display: flex;
@@ -271,12 +268,12 @@ ul {
   letter-spacing: 0.06em;
   line-height: calc(30 / 16);
   cursor: pointer;
-}
+} */
 
 /* ==========КОНЕЦ БАННЕРА НА ГЛАВНОЙ СТРАНИЦЕ ==================*/
 
 /*========= НАШИ ПРЕЙМУЩЕСТВА НАЧАЛО РАЗДЕЛА =================*/
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -287,8 +284,8 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
+} */
+/* 
 .our-advantages {
   display: flex;
   align-items: center;
@@ -340,12 +337,12 @@ ul {
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-}
+} */
 
 /* =========НАШИ ПРЕЙМУЩЕСТВА КОНЕЦ РАЗДЕЛА ===========*/
 
 /* =====ЧЕМ МЫ ЗАНИМАЕМСЯ НА ГЛАВНОЙ СТРАНИЦЕ========= */
-.whatdowedo {
+/* .whatdowedo {
   padding-bottom: 94px;
 }
 .whatdowedo-title {
@@ -394,12 +391,12 @@ ul {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
-}
+} */
 
 /*========== ЧЕМ МЫ ЗАНИМАЕМСЯ КОНЕЦ =========*/
 
 /*============== НАША КОММАНДА НАЧАЛО (НА ГЛАВНОЙ СТРАНИЦЕ)========== */
-.our-team-section {
+/* .our-team-section {
   background-color: #f5f4fa;
 }
 .our-team-title {
@@ -452,11 +449,11 @@ ul {
   padding-right: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
-}
+} */
 
 /*Начало иконок Соц сетей в разделе Наша команда */
 
-.social-icon-list {
+/* .social-icon-list {
   display: flex;
   justify-content: center;
 }
@@ -492,7 +489,7 @@ ul {
 .social-icon {
   width: 20px;
   height: 20px;
-}
+} */
 
 /* Конец иконок Соц сетей в разделе Наша команда */
 
@@ -500,7 +497,7 @@ ul {
 
 /* ============НАЧАЛО НАШИ КЛИЕНТЫ============ */
 
-.our-clients-item + .our-clients-item {
+/* .our-clients-item + .our-clients-item {
   margin-left: 30px;
 }
 
@@ -553,11 +550,11 @@ ul {
   font-size: 36px;
   line-height: calc(42 / 36);
   margin-bottom: 50px;
-}
+} */
 /* -==-======= КОНЕЦ НАШИ КЛИЕНТЫ ========== */
 /* -=========ФИЛЬТР НА СТРАНИЦЕ ПОРТФОЛИО НАЧАЛО =========*/
 
-.active {
+/* .active {
   width: 73px;
   display: block;
   background-color: #2196f3;
@@ -602,7 +599,7 @@ ul {
   color: white;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 .work-examples-container {
   display: flex;
@@ -638,7 +635,7 @@ button {
 
 /* =========ПРИМЕРЫ РАБОТ В ПОРТФОЛИО =========*/
 
-.work-examples-top-text {
+/* .work-examples-top-text {
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
   font-family: inherit;
@@ -717,7 +714,7 @@ button {
 
 .work-examples-list-link:focus .work-examples-top-text {
   transform: translateY(0);
-}
+} */
 
 /* .work-examples-list-item:focus,
 .work-examples-list-item:hover {
@@ -726,13 +723,13 @@ button {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 } */
 
-.work-example-title {
+/* .work-example-title {
   color: var(--title-text-color);
   margin-bottom: 4px;
   font-weight: bold;
   font-family: inherit;
   line-height: calc(36 / 18);
-}
+} */
 /* =========КОНЕЦ ПРИМЕРОВ РАБОТ В ПОРТФОЛИО============== */
 
 /* =======ФУТЕР НА ГЛАВНОЙ СТРАНИЦУ И ПОРТФОЛИО======= */

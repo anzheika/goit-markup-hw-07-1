@@ -10,9 +10,8 @@
 }
 
 .nav-link {
-  display: flex;
+  @extend %align-items;
   font-weight: 500;
-  align-items: center;
   line-height: calc(16 / 14);
   padding-top: 32px;
   padding-bottom: 32px;

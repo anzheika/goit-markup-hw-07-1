@@ -1,19 +1,17 @@
 .hero {
+  @extend %align-items;
   margin: 0 auto;
   background-color: #2f303a;
-  display: flex;
   height: 600px;
   width: 1600px;
-  align-items: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.hero-container {
-  display: flex;
-  align-items: center;
+.hero__container {
+  @extend %align-items;
   flex-direction: column;
 }
 .hero-title {

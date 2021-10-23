@@ -4,8 +4,7 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
   top: 0;
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   justify-content: center;
   transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
 }
@@ -44,8 +43,7 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   justify-content: center;
 
   &:hover .modal-btn-icon,
@@ -151,9 +149,8 @@
 
 .modal-form-checkbox-label {
   cursor: pointer;
-  display: flex;
+  @extend %align-items;
   justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
   margin-right: 2px;
 
@@ -168,8 +165,7 @@
 }
 
 .subscribe-checkbox-wrapper {
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   justify-content: center;
   margin-bottom: 30px;
 }

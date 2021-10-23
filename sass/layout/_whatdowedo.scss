@@ -3,8 +3,7 @@
 }
 
 .whatdowedo-list {
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -19,9 +18,8 @@
 }
 
 .whatdowedo-list-text {
-  display: flex;
+  @extend %align-items;
   justify-content: center;
-  align-items: center;
   color: #ffffff;
   position: absolute;
   left: 0;

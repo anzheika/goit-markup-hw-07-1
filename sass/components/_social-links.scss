@@ -1,18 +1,18 @@
-.social-icon-list {
+.social-list {
   display: flex;
   justify-content: center;
 }
 
-.social-item {
+.social-list__item {
   width: 44px;
   height: 44px;
 
-  & + .social-item {
+  & + .social-list__item {
     margin-left: 10px;
   }
 }
 
-.social-link {
+.social-list__link {
   width: 100%;
   height: 100%;
   display: block;
@@ -31,7 +31,7 @@
   }
 }
 
-.social-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
 }

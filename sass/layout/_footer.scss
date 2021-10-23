@@ -29,6 +29,10 @@
   display: flex;
   flex-direction: column;
 }
+.footer-social-icon-list {
+  display: flex;
+  justify-content: center;
+}
 
 .footer-social-link {
   fill: var(--primary-bg-color);
